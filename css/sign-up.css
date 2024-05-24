@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url(imges/interior-design-old-architecture.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+overflow: hidden;
+} */
+.overlay img{
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+.logo{
+    display: flex;
+
+    /* margin: 30px; */
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.logo h2{
+    font-size: 60px;
+    margin-left: 5px;
+    color: white;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 200px;
+}
+.form input{
+width: 100%;
+margin: 10px 0;
+outline: none;
+border: none;
+border-radius: 5px;
+padding: 5px;
+background-color: gainsboro;
+}
+
+.inp-gender{
+    color: #fff;
+    display: flex;
+    margin-left: -20px;
+}
+
+.inp-gender label{
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.btn1{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+
